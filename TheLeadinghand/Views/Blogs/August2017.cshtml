@@ -1,0 +1,61 @@
+﻿@{
+    ViewBag.Title = "August2017";
+}
+
+<h2>August2017</h2>
+
+<a href="@Url.Action("PaidProperly","Blog")" , title="Getting paid properly">
+    <img src="@Url.Content("~/Images/CreditCardLH.jpg")" alt="Are you getting paid properly for what you do?" width="220" height="220" />
+</a>
+
+<h3>
+    @Html.ActionLink("Are you getting paid properly for what you do?", "PaidProperly")
+</h3>
+<div> Posted on 31/08/2017 &bull;   @Html.ActionLink("0 Comments", "PaidProperly")</div>
+<div>
+    <p>An important part of any business is making sure you get paid properly for the work you do. More than just money in the bank, the long-term survival of your workshop is at stake. Lots of computer programs help achieve this. With them you can itemise the work done, and record the payment. But you&hellip; <a href="2017/08/31/getting-paid-properly/" class="more-link">Continue Reading</a></p>
+</div>
+<div>
+    <ul>
+        <li>
+            <form method="get" id="searchform" action="">
+                <label for="s" class="assistive-text">Search</label>
+                <input type="text" class="field" name="s" id="s" value="Type to search, then press enter" onclick="if(this.value=='Type to search, then press enter')this.value='';" onblur="if(this.value=='')this.value='Type to search, then press enter';" />
+                <input type="submit" class="submit" name="submit" id="searchsubmit" value="Search" />
+            </form>
+        </li>
+        <li id="recent-posts-3" class="widget widget_recent_entries">
+            <h3 class="widget-title"><span class="widget-inner">Recent Posts</span></h3>
+            <ul>
+                <li>
+                    @Html.ActionLink("Are you getting paid properly for what you do?", "PaidProperly")
+                </li>
+                <li>
+                    @Html.ActionLink("When did you last backup your computer?", "BackupComputer")
+                </li>
+                <li>
+                    @Html.ActionLink("Cloud or Desktop for Managing Your Automotive Workshop?", "AutomotiveWorkshop")
+                </li>
+                <li>
+                    @Html.ActionLink("Aiming for the best", "AimingBest")
+                </li>
+                <li>
+                    @Html.ActionLink("Lessons from Surfing", "")
+                </li>
+            </ul>
+        </li>
+        <li id="archives-4" class="widget widget_archive">
+            <h3 class="widget-title"><span class="widget-inner">Archives</span></h3>
+            <ul>
+                <li>@Html.ActionLink("August 2017 (1)", "August2017")</li>
+                <li><a href='2017/07/'>July 2017</a>&nbsp;(1)</li>
+                <li><a href='2017/06/'>June 2017</a>&nbsp;(1)</li>
+                <li><a href='2017/05/'>May 2017</a>&nbsp;(1)</li>
+                <li><a href='2017/02/'>February 2017</a>&nbsp;(3)</li>
+                <li><a href='2016/12/'>December 2016</a>&nbsp;(1)</li>
+                <li><a href='2016/10/'>October 2016</a>&nbsp;(2)</li>
+                <li><a href='2016/08/'>August 2016</a>&nbsp;(1)</li>
+            </ul>
+        </li>
+    </ul>
+</div>
