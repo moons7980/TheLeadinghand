@@ -37,5 +37,9 @@ namespace TheLeadinghand.Controllers
         {
             return View();
         }
+        public ActionResult July2017()
+        {
+            return View();
+        }
     }
 }

@@ -182,7 +182,7 @@
     <Content Include="Images\220x220xCase-Study-1-image-220x220.jpg.pagespeed.ic.dC04y38LzW.jpg" />
     <Content Include="Images\220x220xCloud-technology-220x220.jpg.pagespeed.ic.25KXsjzxfm.jpg" />
     <Content Include="Images\220x220xCologne-220x220.jpg.pagespeed.ic.iUYp6H06ui.jpg" />
-    <Content Include="Images\220x220xComputers-on-fire-220x220.jpg.pagespeed.ic.QyejIUEsJV.jpg" />
+    <Content Include="Images\ComputerOnFireSmallLH.jpg" />
     <Content Include="Images\CreditCardLH.jpg" />
     <Content Include="Images\220x220xcustomer-_cropped-220x220.jpg.pagespeed.ic.PWAhV2TrUc.jpg" />
     <Content Include="Images\220x220xDont-get-court-220x220.jpg.pagespeed.ic.yjbBoDOWwv.jpg" />
@@ -261,9 +261,9 @@
     <Content Include="Images\V8-Supercars-logo-2014.png" />
     <Content Include="Images\xAAAE-LH-image-small.jpg.pagespeed.ic.WGe2FUKcbM.jpg" />
     <Content Include="Images\xbluetruck1-150x150.jpg.pagespeed.ic.25n7Ihwc7x.jpg" />
-    <Content Include="Images\xCloud-technology.jpg.pagespeed.ic._DOPl7YHwT.jpg" />
+    <Content Include="Images\CloudTechnologyLH.jpg" />
     <Content Include="Images\xCologne.jpg.pagespeed.ic.dNGLZ5FDe8.jpg" />
-    <Content Include="Images\xComputers-on-fire.jpg.pagespeed.ic.E6wiceIunQ.jpg" />
+    <Content Include="Images\ComputersOnFireLH.jpg" />
     <Content Include="Images\xcustomer-_cropped.jpg.pagespeed.ic.pu4WPKHuyh.jpg" />
     <Content Include="Images\xLH-25-YEARS.png.pagespeed.ic.LovdsHAuBV.png" />
     <Content Include="Images\xLH-favicon-square.png.pagespeed.ic.aiU3T2hYJR.png" />
@@ -324,11 +324,12 @@
     <Content Include="Views\Blogs\AimingBest.cshtml" />
     <Content Include="Views\Blogs\SurfingLessons.cshtml" />
     <Content Include="Views\Blogs\August2017.cshtml" />
+    <Content Include="Views\Category\Uncategorized.cshtml" />
+    <Content Include="Views\Blogs\July2017.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Category\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
