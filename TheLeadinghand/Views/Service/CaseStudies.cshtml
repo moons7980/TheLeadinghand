@@ -3,10 +3,9 @@
     ViewBag.Title = "Case Studies";
 }
 
-<h2>Case Studies</h2>
+<h1>What do our customers say about The Leading Hand?</h1>
 
 <div>
-    <h2>What do our customers say about The Leading Hand?</h2>
     <p>The Leading Hand has been servicing the automotive and plant management industry since 1992. In this time we have built up a strong relationship with our loyal and satisfied customers, many of whom have contributed to the development and enhancement of the program.</p>
     <p>
         These are the kinds of businesses which enjoy the benefits of The Leading Hand:<br />
@@ -16,6 +15,38 @@
         * Operations with workshops in a number of different areas &#8211; even inter-state
     </p>
     <p>We take pride in what we do and strive to help everyone run a successful business. Here are some of their stories.</p>
+</div>
+<div>
+    <div>
+        <a href="@Url.Action("KDMotorworx","Portfolio")">
+            <img src="@Url.Content("~/Images/KDMWTroysUte2.jpg")" alt="Computer technology helps with old fashioned service" width="380" height="285" />
+        </a>
+        <header>
+            <h2 class="entry-title" itemprop="headline">
+                @Html.ActionLink("Computer technology helps with old fashioned service", "KDMotorworx", "Portfolio")
+            </h2>
+        </header>
+    </div>
+    <div>
+        <a href="@Url.Action("NoCourt","Portfolio")">
+            <img src="@Url.Content("~/Images/DontGetCourt2.jpg")" alt="Don’t Get Court Out" width="380" height="285" />
+        </a>
+        <header>
+            <h2 class="entry-title" itemprop="headline">
+                @Html.ActionLink("Don’t Get Court Out", "NoCourt", "Portfolio")
+            </h2>
+        </header>
+    </div>
+    <div>
+        <a href="@Url.Action("ImportanceOfCommunication","Portfolio")">
+            <img src="@Url.Content("~/Images/MooresFront2.jpg")" alt="The importance of communication" width="380" height="285" />
+        </a>
+        <header>
+            <h2 class="entry-title" itemprop="headline">
+                @Html.ActionLink("The importance of communication", "ImportanceOfCommunication", "Portfolio")
+            </h2>
+        </header>
+    </div>
 </div>
 <div>
     <p>We looked at many workshop packages and decided The Leading Hand was the best. That was more than 20 years ago. Since then The Leading Hand has gone from strength to strength, improving the professionalism of our workshop management along the way. It is a long-term relationship that has paid big dividends. I'm glad we made that decision.</p>

@@ -1,0 +1,43 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    ViewBag.Title = "_BlogLayout";
+}
+
+
+<aside>
+    <ul class="widget-area">
+        <li id="search-4" class="widget widget_search">
+            <form method="get" id="searchform" action="">
+                <label for="s" class="assistive-text">Search</label>
+                <input type="text" class="field" name="s" id="s" value="Type to search, then press enter" onclick="if(this.value=='Type to search, then press enter')this.value='';" onblur="if(this.value=='')this.value='Type to search, then press enter';" />
+                <input type="submit" class="submit" name="submit" id="searchsubmit" value="Search" />
+            </form>
+        </li>
+        <li id="recent-posts-3" class="widget widget_recent_entries">
+            <h3 class="widget-title"><span class="widget-inner">Recent Posts</span></h3>
+            <ul>
+                <li>
+                    @Html.ActionLink("Are you getting paid properly for what you do?", "PaidProperly")
+                </li>
+                <li>
+                    @Html.ActionLink("When did you last backup your computer?", "BackupComputer")
+                </li>
+                <li>
+                    @Html.ActionLink("Cloud or Desktop for Managing Your Automotive Workshop?", "AutomotiveWorkshop")
+                </li>
+                <li>
+                    @Html.ActionLink("Aiming for the best", "AimingBest")
+                </li>
+                <li>
+                    @Html.ActionLink("Lessons from Surfing", "")
+                </li>
+            </ul>
+        </li>
+        <li>
+
+</aside>
+<footer>
+    @RenderBody()
+</footer>

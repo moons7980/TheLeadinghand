@@ -16,9 +16,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("The Leading Hand", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+
+            </div>
+            <div>
+                <img src="@Url.Content("~/Images/LHLogo.png")" />
+                <img src="@Url.Content("~/Images/LH25Years.png")" />
             </div>
             <div class="navbar-collapse collapse">
+
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("Product Features", "Features", "Service")</li>
@@ -29,7 +34,6 @@
                     <li>@Html.ActionLink("Blog", "Index", "Blog")</li>
                     <li>@Html.ActionLink("About Us", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-
                 </ul>
             </div>
         </div>
@@ -38,6 +42,41 @@
         @RenderBody()
         <hr />
         <footer>
+
+            <div>
+                <h3>Quick Links</h3>
+                <div>
+                    <ul>
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("Product Features", "Features", "Service")</li>
+                        <li>@Html.ActionLink("Case Studies", "CaseStudies", "Service")</li>
+                        <li>@Html.ActionLink("Free Demo", "Demo", "Service")</li>
+                        <li>@Html.ActionLink("Pricing", "BuyRent", "Service")</li>
+                        <li>@Html.ActionLink("FAQ’s & Support", "Support", "Service")</li>
+                        <li>@Html.ActionLink("Blog", "Index", "Blog")</li>
+                        <li>@Html.ActionLink("About Us", "About", "Home")</li>
+                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <h3> Contact Us</h3>
+                <div class="textwidget">
+                    P: (02) 9440-0269<br>
+                    E: lhand@ampl.com.au<br>
+                    A: 3 McRae Place Turramurra NSW 2074 AUSTRALIA
+                </div>
+            </div><div>
+                <h3>Follow Us</h3>
+                <div>
+                    <a href="www.facebook.com/theleadinghand/" class="facebook-sm-paddingright" target="_blank">
+                        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                    </a>
+                    <a href="www.youtube.com/watch?v=d4JnIEnCk4A" target="_blank">
+                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
             <p>&copy; 2018 AMPL Software Pty Ltd Website by aSensitive Solution</p>
         </footer>
     </div>

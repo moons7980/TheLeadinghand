@@ -159,6 +159,7 @@
     <Compile Include="Controllers\BlogsController.cs" />
     <Compile Include="Controllers\CategoryController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PortfolioController.cs" />
     <Compile Include="Controllers\ServiceController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -180,7 +181,7 @@
     <Content Include="Images\220x220xBBR-220x220.jpg.pagespeed.ic.en8uKt3Kup.jpg" />
     <Content Include="Images\220x220xbluetruck1-220x220.jpg.pagespeed.ic.T9KIRV4eRs.jpg" />
     <Content Include="Images\220x220xCase-Study-1-image-220x220.jpg.pagespeed.ic.dC04y38LzW.jpg" />
-    <Content Include="Images\220x220xCloud-technology-220x220.jpg.pagespeed.ic.25KXsjzxfm.jpg" />
+    <Content Include="Images\CloudTechnologySmallLH.jpg" />
     <Content Include="Images\220x220xCologne-220x220.jpg.pagespeed.ic.iUYp6H06ui.jpg" />
     <Content Include="Images\ComputerOnFireSmallLH.jpg" />
     <Content Include="Images\CreditCardLH.jpg" />
@@ -193,12 +194,12 @@
     <Content Include="Images\220x220xsurfing-lessons-220x220.jpg.pagespeed.ic.GjGkdM0dHz.jpg" />
     <Content Include="Images\220x220xXmasKanga3125-220x220.jpg.pagespeed.ic.eusp7CIpc-.jpg" />
     <Content Include="Images\277x300xKelly-277x300.jpg.pagespeed.ic.hibFCMWdLA.jpg" />
-    <Content Include="Images\313x235xDont-get-court-313x235.jpg.pagespeed.ic.448N18S_6Q.jpg" />
-    <Content Include="Images\313x235xKD-MW-Troys-ute-313x235.jpg.pagespeed.ic.fthsZ0RyTm.jpg" />
-    <Content Include="Images\313x235xMoores-FRONT-3-22MAY2017-313x235.jpg.pagespeed.ic.YC0ed1aNCd.jpg" />
-    <Content Include="Images\380x285xDont-get-court-380x285.jpg.pagespeed.ic.PlPdD0k4db.jpg" />
-    <Content Include="Images\380x285xKD-MW-Troys-ute-380x285.jpg.pagespeed.ic.adsanMXHOR.jpg" />
-    <Content Include="Images\380x285xMoores-FRONT-3-22MAY2017-380x285.jpg.pagespeed.ic.fualgp59ye.jpg" />
+    <Content Include="Images\DontGetCourt2.jpg" />
+    <Content Include="Images\KDMWTroysUte2.jpg" />
+    <Content Include="Images\MooresFront2.jpg" />
+    <Content Include="Images\DontGetCourt.jpg" />
+    <Content Include="Images\KDMWTroysUte.jpg" />
+    <Content Include="Images\MooresFront.jpg" />
     <Content Include="Images\488x212xampl_logo.jpg.pagespeed.ic.XgiUcPTGt9.jpg" />
     <Content Include="Images\500x250xLH-AMPL-logo.jpg.pagespeed.ic.kogsPElefZ.jpg" />
     <Content Include="Images\500x250xLH-Boyces-logo.jpg.pagespeed.ic.hJ_g6h-nlr.jpg" />
@@ -265,10 +266,10 @@
     <Content Include="Images\xCologne.jpg.pagespeed.ic.dNGLZ5FDe8.jpg" />
     <Content Include="Images\ComputersOnFireLH.jpg" />
     <Content Include="Images\xcustomer-_cropped.jpg.pagespeed.ic.pu4WPKHuyh.jpg" />
-    <Content Include="Images\xLH-25-YEARS.png.pagespeed.ic.LovdsHAuBV.png" />
+    <Content Include="Images\LH25Years.png" />
     <Content Include="Images\xLH-favicon-square.png.pagespeed.ic.aiU3T2hYJR.png" />
-    <Content Include="Images\xLH-logo-580x110.png.pagespeed.ic.15QzGbN6Z4.png" />
-    <Content Include="Images\xLH-screen-530x300.png.pagespeed.ic.SFNepaK3K2.png" />
+    <Content Include="Images\LHLogo.png" />
+    <Content Include="Images\LHScreen.png" />
     <Content Include="Images\XmasKanga3125.jpg" />
     <Content Include="Images\xMechanic-with-Computer-Large.jpg.pagespeed.ic.cphNxUPASr.jpg" />
     <Content Include="Images\xsurfing-lessons.jpg.pagespeed.ic.IM2yUBsabL.jpg" />
@@ -326,6 +327,12 @@
     <Content Include="Views\Blogs\August2017.cshtml" />
     <Content Include="Views\Category\Uncategorized.cshtml" />
     <Content Include="Views\Blogs\July2017.cshtml" />
+    <Content Include="Views\Blogs\June2017.cshtml" />
+    <Content Include="Views\Shared\_BlogLayout.cshtml" />
+    <Content Include="Views\Shared\_ArchivesLayout.cshtml" />
+    <Content Include="Views\Portfolio\KDMotorworx.cshtml" />
+    <Content Include="Views\Portfolio\NoCourt.cshtml" />
+    <Content Include="Views\Portfolio\ImportanceOfCommunication.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
