@@ -1,20 +1,15 @@
 ﻿
 @{
-    ViewBag.Title = "Case Studies";
+    ViewBag.Title = "OlderCaseStudies";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>What do our customers say about The Leading Hand?</h1>
-
 <div>
-    <p>The Leading Hand has been servicing the automotive and plant management industry since 1992. In this time we have built up a strong relationship with our loyal and satisfied customers, many of whom have contributed to the development and enhancement of the program.</p>
     <p>
-        These are the kinds of businesses which enjoy the benefits of The Leading Hand:<br />
-        * One-man operations – including mobile<br />
-        * Family workshops<br />
-        * Businesses with a large number of staff<br />
-        * Operations with workshops in a number of different areas &#8211; even inter-state
+        What do our customers say about The Leading Hand? The Leading Hand has been servicing the automotive and plant management industry since 1992.
+        In this time we have built up a strong relationship with our loyal and satisfied customers, many of whom have contributed to the development and enhancement of the program.
+        These are the&hellip; @Html.ActionLink("Continue Reading", "CaseStudies", "Service")
     </p>
-    <p>We take pride in what we do and strive to help everyone run a successful business. Here are some of their stories.</p>
 </div>
 <div>
     <div>
@@ -47,7 +42,7 @@
             </h2>
         </header>
     </div>
-    @Html.ActionLink("Older posts", "OlderCaseStudies", "Service")
+    @Html.ActionLink("Newer posts", "CaseStudies", "Service")
 
 </div>
 <div>
@@ -69,4 +64,3 @@
     </div>
 
 </div>
-

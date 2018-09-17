@@ -193,7 +193,7 @@
     <Content Include="Images\220x220xSobey-220x220.jpg.pagespeed.ic.-YuZryeL8l.jpg" />
     <Content Include="Images\220x220xsurfing-lessons-220x220.jpg.pagespeed.ic.GjGkdM0dHz.jpg" />
     <Content Include="Images\220x220xXmasKanga3125-220x220.jpg.pagespeed.ic.eusp7CIpc-.jpg" />
-    <Content Include="Images\277x300xKelly-277x300.jpg.pagespeed.ic.hibFCMWdLA.jpg" />
+    <Content Include="Images\LHDemoSent.jpg" />
     <Content Include="Images\DontGetCourt2.jpg" />
     <Content Include="Images\KDMWTroysUte2.jpg" />
     <Content Include="Images\MooresFront2.jpg" />
@@ -333,6 +333,7 @@
     <Content Include="Views\Portfolio\KDMotorworx.cshtml" />
     <Content Include="Views\Portfolio\NoCourt.cshtml" />
     <Content Include="Views\Portfolio\ImportanceOfCommunication.cshtml" />
+    <Content Include="Views\Service\OlderCaseStudies.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
